@@ -40,8 +40,8 @@ public class ImageService {
         String imageSize[] = image.getDimensions().split("X");
         String screenSize[] = screenDimensions.split("X");
 
-        int sH = Integer.parseInt(screenSize[0])
-        int sB = Integer.parseInt(screenSize[1])
+        int sH = Integer.parseInt(screenSize[0]);
+        int sB = Integer.parseInt(screenSize[1]);
         int iH =  Integer.parseInt(imageSize[0]);
         int iB =  Integer.parseInt(imageSize[1]);
 
